@@ -1,11 +1,16 @@
-var today = $('#today');
-var apptHour = moment().format('H');
+// Current Times \\
+var today = $("#currentDay");
+var inputHour = (moment().format('H'));
+
+// console.log(today);
+
 
 setInterval(function() {
-    var currentTime = moment();
-    var date = currentTime.format('MMMM Do YYYY, h:mm:ss a'):
+    var currentDate = moment();
+    var date = currentDate.format('MMMM Do YYYY, h:mm:ss a')
     today.text(date);
-}, 100);
+}, 1000);
+
 
 $(".saveBtn").click(function () {
     $('input[type="text"]').each(function () {
@@ -42,4 +47,3 @@ calTime(15, '#fifteen');
 calTime(16, '#sixteen');
 calTime(17, '#seventeen');
 calTime(18, '#eighteen');
-calTime(19, '#nineteen');
