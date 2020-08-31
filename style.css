@@ -4,16 +4,16 @@ body {
   line-height: 1;
 }
 
-.currentDay {
+/* .currentDay {
   color: black;
-}
+} */
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 0px solid black;
   padding: 10px;
 }
 

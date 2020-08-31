@@ -1,5 +1,5 @@
 # Workday Scheduler
-![Daily Planner](./Assets/calendar.jpg)
+![Daily Planner](./Assets/header.jpg)
 
 ## Description
 Workday Scheduler is a browser based calendar application that allows the user to track events by the hour. The application is a fully responsive, providng the user with the convenience of mobile, tablet and desktop functionality for convenience. The applicatain was desgined as an on demand scheduling tool to add, record and manage important events. 
